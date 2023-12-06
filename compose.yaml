@@ -5,8 +5,6 @@ services:
     build: 
       context: .
       dockerfile: ./docker/apache/Dockerfile
-      args:
-        ARG_VALUE1: hoge
     ports:
       - "8000:80"
     volumes:
